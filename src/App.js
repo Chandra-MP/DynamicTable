@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./App.css";
 import Table from "./components/Table.js";
-import Footer from "./components/Footer.js";
 import './fontawesome'
 
 function App() {
@@ -99,7 +98,7 @@ function App() {
     <div className="App container-fluid">
       <nav className="navbar bg-light">
         <div className="container-fluid nav-container">
-          <a className="navbar-brand">Users</a>
+          <a className="navbar-brand" href='!#'>Users</a>
           <form className="d-flex" role="search">
             <input
               type="text"
